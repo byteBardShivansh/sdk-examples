@@ -4,13 +4,4 @@ version = 1
 name = "python"
 
   [analyzers.meta]
-  runtime_version = "3.11"
-
-exclude_patterns = [
-  "tests/**",      # Skip tests if you don't want them analyzed
-  "**/migrations/**",  # Common Django/ORM pattern to exclude
-]
-
-[[transformers]]
-name = "autopep8"  # Optional, auto-formatting transformer
-
+  runtime_version = "3.x.x"
